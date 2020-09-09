@@ -33,7 +33,7 @@ public class Main {
             switch (num) {
                 case 1: {
                     Code coder = factory.getCoder("Caesars");
-                    ceasarsCode(coder);
+                    caesarsCode(coder);
                     break;
                 }
                 case 2: {
@@ -56,7 +56,7 @@ public class Main {
 
     }
 
-    private static void ceasarsCode(Code coder) throws IOException, IllegalBlockSizeException, InvalidKeyException, BadPaddingException, NoSuchAlgorithmException, NoSuchPaddingException {
+    private static void caesarsCode(Code coder) throws IOException, IllegalBlockSizeException, InvalidKeyException, BadPaddingException, NoSuchAlgorithmException, NoSuchPaddingException {
 
         System.out.println("What is a word you are going to encode and then decode?");
         System.out.print("Word: ");
